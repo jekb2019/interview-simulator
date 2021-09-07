@@ -1,10 +1,9 @@
 .grid {
-  border: 1px solid black;
-  width: 1064px;
   display: flex;
   flex-wrap: wrap;
+  width: 1150px;
 }
 
 .card {
-  margin: 20px;
+  margin: 20px 60px;
 }
