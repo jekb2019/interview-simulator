@@ -1,11 +1,16 @@
 import React from 'react';
+import { Children } from 'react';
 import styles from './DashboardCardGrid.module.css';
 
 const DashboardCardGrid = ({ children }) => (
   <div className={styles.grid}>
-    {children.map((child) => (
-      <div className={styles.card}>{child}</div>
-    ))}
+    {Children.map(children || null, (child, i) => {
+      return (
+        <div className={styles.card}>
+          <child.type {...child.props} key={i} />
+        </div>
+      );
+    })}
   </div>
 );
 
