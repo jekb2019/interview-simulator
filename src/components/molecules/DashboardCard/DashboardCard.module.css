@@ -1,0 +1,24 @@
+@value makerLightBlue from '../../atoms/colors/colors.css';
+@value makerLightYellow from '../../atoms/colors/colors.css';
+@value makerLightRed from '../../atoms/colors/colors.css';
+
+.card {
+  width: 450px;
+  height: 250px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blue {
+  background-color: makerLightBlue;
+}
+
+.yellow {
+  background-color: makerLightYellow;
+}
+
+.red {
+  background-color: makerLightRed;
+}

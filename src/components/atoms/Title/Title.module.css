@@ -1,0 +1,11 @@
+@value makerBlack from '../../atoms/colors/colors.css';
+
+/* Sizes */
+.big {
+  font-size: 36px;
+}
+
+/* Color */
+.black {
+  color: makerBlack;
+}
